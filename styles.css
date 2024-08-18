@@ -627,13 +627,14 @@ body {
     }
     
     #tfg-ir-title h1 {
-        padding: 0px 80px;
+        margin-top: -10px
+        padding: 0px 60px;
         font-size: 18px;
     }
     
     #tfg-ir-title h2 {
         padding: 0px 110px;
-        font-size: 16px;
+        font-size: 15px;
     }
     
     #tfg-ir-title p {
@@ -645,11 +646,13 @@ body {
         position: fixed;
         bottom: 2px;
         right: 12px;
-        font-size: 11px;
+        font-size: 10px;
     }
     
     .abstract-table th {
         padding: 0px 15px;
+        padding-top: 20px;
+        padding-bottom: 3px;
     }
     
     .abstract-table td {
