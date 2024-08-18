@@ -644,7 +644,7 @@ body {
     .up-shortcut p {
         position: fixed;
         bottom: 2px;
-        right: 15px;
+        right: 14px;
         font-size: 11px;
     }
 
@@ -657,7 +657,7 @@ body {
     }
     
     .abstract-table td {
-        padding: 0px 15px;
+        padding: 10px 15px;
     }
     
     .tfg-ir-section:hover {
