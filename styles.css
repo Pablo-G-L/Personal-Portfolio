@@ -423,7 +423,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 590px) and (min-width: 380px) {
+@media only screen and (max-width: 590px) and (min-width: 420px) {
     #tfg-ir-title {
         background-image:  linear-gradient(
       130deg,
@@ -470,7 +470,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 420px) {
     #tfg-ir-title {
         background-image:  linear-gradient(
       130deg,
