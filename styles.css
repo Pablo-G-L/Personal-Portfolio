@@ -627,7 +627,7 @@ body {
     }
     
     #tfg-ir-title h1 {
-        padding: 0px 110px;
+        padding: 0px 80px;
         font-size: 18px;
     }
     
@@ -644,12 +644,8 @@ body {
     .up-shortcut p {
         position: fixed;
         bottom: 2px;
-        right: 14px;
+        right: 12px;
         font-size: 11px;
-    }
-
-    .abstract-table {
-        border-collapse: collapse;
     }
     
     .abstract-table th {
