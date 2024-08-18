@@ -493,13 +493,11 @@ body {
     }
 
     #tfg-ir-title img {
-        width: 22%;
-        margin-top: -130px;
-        margin-bottom: -5px;
+        display: none;
     }
     
     #tfg-ir-title h1 {
-        padding: 0px 60px;
+        padding: 0px 15px;
         font-size: 18px;
     }
     
@@ -509,34 +507,15 @@ body {
     }
     
     #tfg-ir-title p {
-        padding: 0px 50px;
+        padding: 0px 15px;
         font-size: 12px;
-    }
-
-    .abstract-table {
-        border-collapse: collapse;
-    }
-    
-    .abstract-table td {
-        vertical-align: top;
-        padding: 0px 10px;
-    }
-
-    .tfg-ir-section:hover {
-        background-color: black;
-        color: white;
-    }
-
-    .tfg-ir-section:active {
-        background-color: white;
-        color: black;
     }
 
     .up-shortcut p {
         position: fixed;
         bottom: 1px;
         right: 12px;
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
