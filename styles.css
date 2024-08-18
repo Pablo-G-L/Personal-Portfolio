@@ -627,13 +627,13 @@ body {
     }
     
     #tfg-ir-title h1 {
-        padding: 0px 60px;
+        padding: 0px 100px;
         font-size: 18px;
     }
     
     #tfg-ir-title h2 {
         padding: 0px 110px;
-        font-size: 15px;
+        font-size: 16px;
     }
     
     #tfg-ir-title p {
@@ -642,13 +642,14 @@ body {
     }
 
     .up-shortcut p {
-        font-size: 10px;
+        position: fixed;
+        bottom: 2px;
+        right: 14px;
+        font-size: 11px;
     }
     
     .abstract-table th {
         padding: 0px 15px;
-        padding-top: 20px;
-        padding-bottom: 3px;
     }
     
     .abstract-table td {
