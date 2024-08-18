@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="styles.css">
+<title>Ajedrez Pablo</title>
+</head>
+<body>
+    <nav id="navbar-ir">
+        <a href="index.html">
+          Go back
+        </a>
+      </nav>
+    <div class="space-nav">
+    </div>
+    <select class="games-selector">
+        <option selected disabled hidden>
+            Selecciona una partida
+        </option>
+        <option value="jose-olmo_2024">
+            González López, Pablo ½ - ½ Olmo, José (19/07/2024)
+        </option>
+    </select>
+    <div class="chess-games">
+        <div class="board">
+            <table class="chess-board">
+                <tbody>
+                    <tr>
+                        <th>8</th>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark last-move"><img src="chess-pieces/black-king.png"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"><img src="chess-pieces/black-pawn.png"></td>
+                        <td class="dark last-move"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td class="light"><img src="chess-pieces/white-king.png"></td>
+                        <td class="dark"><img src="chess-pieces/white-pawn.png"></td>
+                        <td class="light"><img src="chess-pieces/white-pawn.png"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                        <td class="dark"></td>
+                        <td class="light"></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>a</th>
+                        <th>b</th>
+                        <th>c</th>
+                        <th>d</th>
+                        <th>e</th>
+                        <th>f</th>
+                        <th>g</th>
+                        <th>h</th>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="caption"><b>Posición tras 48... Rc7</b></p>
+        </div>
+        <div class="game-analysis">
+        <h6 class="opening">
+            <b>Defensa Holandesa, Gambito Staunton.</b>
+        </h6>
+        <p>
+            <b>1.d4 f5 2.e4 fxe4 3.Cc3 Cf6
+            4.Ag5 e6 5.Cxe4 Ae7 6.Cxf6+</b>
+            (otra posibilidad es 6.Axf6 Axf6 7.Cf3, con ligera ventaja blanca)
+            <b>6...Axf6 7.h4 o-o 8.Ad3 De8 9.Cf3</b> (o 9.f4!?, donde
+            9...Axd4 10.c3! Axg1 11.Dc2! recupera el material y pone
+            de manifiesto la falta de desarrollo y la inseguridad del rey
+            de las negras)
+            <b>9...Cc6 10.Dd2 e5 11.Ac4+?</b> (El alfil estaba mejor en la
+            diagonal b1-h7, y la amenaza de 11...e4 podía haberse solventado
+            con 11.Axf6 Txf6 12.Cg5) <b>11...Rh8 12.0-0-0 d6 13.Tde1 
+            Ag4 14.Axf6 Txf6 15.dxe5 Cxe5?</b> (15...dxe5 mantenía la
+            igualdad de material, ya que 16.Cxe5 Cxe5 17.f4 no funciona
+            por 17...Cxc4 18.Txe8+ Txe8, con torre y dos piezas por la dama,
+            y 17.Dc3 Tf5 [o, más sencillamente, 17...Dc6] 
+            18.f4 b5 19.Af1 Td8 sirve a las negras para recuperar su peón
+            perdido tras la captura del caballo gracias a la amenaza
+            de mate en d1)<b>16.Cxe5 dxe5</b> (ahora el peón de e5 no 
+            puede ser defendido una segunda vez por las piezas negras) 
+            <b>17.f3 Ah5 18.De2?</b> (bastante más precisa era 18.Da5) 
+            <b>18...Da4 19.Rb1 Ag6 20.Ab3 Db4 21.h5 Af7 22.Axf7 Txf7 
+            23.Dxe5 Td8 24.a3</b> (el final debería ganarse facil...) 
+            <b>24...Db6 25.h6 Df6 26.hxg7+ Dxg7 27.De4 Rg8 28.f4 c6 
+            29.g4 Td4 30.Txh7 Txe4 31.Txg7+ Txg7 32.Txe4 Txg4</b> 
+            (saliendo airadas de unas pequeñas complicaciones, las
+            blancas consiguen llegar a un final en principio sencillo de
+            ganar, pues cuentan con un peón de ventaja y el rey negro está 
+            muy alejado de sus propios peones) <b>33.Te7?</b> (comienzan 
+            los errores. No sólo las negras pueden defenderlo todo con
+            33...Tg1+! [para alejar el rey de la defensa del peón de f4] 
+            34.Ra2 Tg7, sino que además 33.Te8+ Rf7 34.Ta8 sí ganaba 
+            un peón manteniendo además el de f4) <b>33...b5? 34.Txa7 
+            Txf4 35.Te7 Tf6 36.b3 Rf8 37.Te3 Rf7 38.Rb2 Tf4 39.b4 Tc4?</b> 
+            (entrando en un final de peones perdido) <b>40.Tc3 Txc3 
+            41.Rxc3 Re6 42.Rd4 Rd6 43.c3</b> (los apuros de tiempo 
+            imprimen en el juego de las blancas una cautela excesiva. 
+            La posición sigue siendo muy favorable, pero 43.c4 
+            ganaba sin problemas)<b> 43...Rd7 44.c4??</b> 
+            (no hacía falta calcular para saber que era momento 
+            para acercar el rey con 44.Rc5) <b>44...Rd6!</b> 
+            (la diferencia con la posición anterior [43.c4] es que ahora 
+            es el turno de las blancas, y después del cambio de peones 
+            en b5 no pueden avanzar su rey hasta c5) <b>45.Rc3 Re6??</b> 
+            (ahora al rey blanco le da tiempo a ponerse por delante de 
+            sus peones por el flanco de dama. El final vuelve a estar 
+            ganado) <b>46.Rb3 Rd6 47.a4 bxa4 48.Rxa4 Rc7</b> (diagrama) 
+            <b>49.Rb3??</b> (las blancas pierden su segunda oportunidad. 
+            49.Ra5 ganaba porque tras 49...Rb7 [única para evitar perder 
+            el último peón negro] 50.b5 cxb5 51.Rxb5 las blancas tienen 
+            la oposición) <b>49...Rb7 50.Rc3 Rc7 51.Rd4 Rd6 52.Re4 Re6 
+            53.Rf4 Rf6 54.Re4 Re6 55.c5 Rf6 56.b5 cxb5 57.Rd5 b4 
+            58.c6 Re7 59.Rc4.</b> Tablas.
+        </p>
+        </div>
+    </div>
+        A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>A<br>
+</body>
+</html>

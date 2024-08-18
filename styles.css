@@ -1,0 +1,785 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+
+/* INDEX STYLINGS */
+
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    width: 100%;
+    margin: 0;
+    background-color: black;
+}
+  
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    z-index: 999
+}
+  
+#navbar a {
+    margin: auto;
+    width: 33%;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: fantasy, helvetica, impact,  serif;
+}
+  
+#navbar a:hover {
+    color: rgb(50, 50, 50);
+    background-color: white;
+    font-family: fantasy, helvetica, impact,  serif;
+}
+  
+.space-nav {
+    height: 55px;
+    background-color: black;
+    width: 100%;
+}
+  
+#welcome-section {
+    background-image:  linear-gradient(
+      155deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      205deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      25deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      335deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+      height: 25vh;
+      text-align: center;
+      padding: 35vh 0;
+}
+  
+#welcome-section h1 {
+    font-family: fantasy, helvetica, impact,  serif;
+    font-size: 35px;
+    letter-spacing: 3px;
+    min-width: 223px;
+}
+  
+#welcome-section h2 {
+    font-family: Helvetica, serif;
+    font-size: 20px;
+    color: rgb(30, 30, 30);
+}
+  
+#projects {
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
+  
+#projects h2 {
+    text-align: center;
+}
+  
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: minmax(175px, auto);
+    grid-gap: 10px;
+    text-align: center;
+    max-width: 629px;
+    margin: auto;
+    align-items: center;
+}
+  
+.project-tile {
+    background-color: rgb(255, 190, 190);
+    border: 4px solid rgb(50, 50, 50);
+    border-radius: 10%;
+    height: 94%;
+}
+  
+.project-tile:hover {
+    background-color: rgb(255, 190, 190);
+    border: 4px solid pink;
+    cursor: pointer;
+}
+ 
+.project-tile img {
+    max-width: 100%;
+    overflow: hidden;
+}
+  
+.project-1 img, .project-2 img, .project-3 img, .project-4 img, .project-5 img, .project-6 img {
+    padding: 10px;
+    width: 80%;
+    border: none;
+}
+
+.project-tile p {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+  
+.project-tile a {
+    text-decoration: none;
+    color: black;
+    font-family: fantasy, helvetica, impact,  serif;
+}
+  
+#about-me {
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+}
+  
+#about-me h2 {
+    font-family: fantasy, helvetica, impact,  serif;
+    letter-spacing: 1px;
+}
+  
+#about-me p {
+    font-family: calibri;
+    font-weight: 600;
+    margin: 4px 10%;
+}
+
+#about-me a {
+    color:rgb(255, 190, 190);
+}
+  
+.contact-links img {
+    width: 25px;
+    margin-bottom: -10px;
+}
+  
+#contact {
+    background-image:  linear-gradient(
+      155deg,
+      black 35%,
+      transparent 35%),
+      linear-gradient(
+      205deg,
+      black 35%,
+      transparent 35%),
+      linear-gradient(
+      25deg,
+      black 38%,
+      transparent 38%),
+      linear-gradient(
+      335deg,
+      black 38%,
+      rgb(255, 190, 190) 38%);
+    height: 25vh;
+    text-align: center;
+    padding: 35vh 0;
+}
+  
+.contact-links {
+    display: flex;
+    justify-content: center;
+}
+  
+.contact-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+  
+.linkedin {
+    margin-right: 30px;
+}
+  
+@media (max-width: 20em) {
+    #navbar {
+      height: 45px;
+    }
+    
+    #navbar a {
+      font-size: 80%;
+      margin-top: -2px;
+    }
+    
+    .space-nav {
+      height: 48px;
+    }
+}
+
+
+
+
+
+/* SOCIOLOGY THESIS STYLINGS */
+
+
+#navbar-available-soon {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    z-index: 999
+}
+  
+#navbar-available-soon a {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: fantasy, helvetica, impact,  serif;
+}
+  
+#navbar-available-soon a:hover {
+    color: rgb(50, 50, 50);
+    background-color: white;
+    font-family: fantasy, helvetica, impact,  serif;
+}
+
+#available-soon {
+    background-image:  linear-gradient(
+      155deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      205deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      25deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      335deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+    height: 25vh;
+    text-align: center;
+    padding: 30vh 0;
+}
+
+#available-soon img {
+    position: relative;
+    top: -20px;
+    width: 60px;
+}
+
+#available-soon h1 {
+    position: relative;
+    top: -15px;
+    font-family: fantasy, helvetica, impact,  serif;
+    letter-spacing: 1px;
+}
+
+#available-soon h2 {
+    position: relative;
+    top: -15px;
+    font-family:'Times New Roman', serif;
+}
+
+
+
+
+
+
+/* IR THESIS STYLINGS */
+
+#navbar-ir {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    z-index: 999
+}
+  
+#navbar-ir a {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: fantasy, helvetica, impact,  serif;
+}
+  
+#navbar-ir a:hover {
+    color: rgb(50, 50, 50);
+    background-color: white;
+    font-family: fantasy, helvetica, impact,  serif;
+}
+
+
+#tfg-ir-title {
+    background-image:  linear-gradient(
+      130deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      230deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      30deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      330deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+    height: 25vh;
+    text-align: center;
+    padding: 310px 0;
+}
+
+#tfg-ir-title img {
+    width: 240px;
+    margin-top: -350px;
+    margin-bottom: -12px;
+}
+
+#tfg-ir-title h1 {
+    padding: 0px 240px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#tfg-ir-title h2 {
+    padding: 0px 170px;
+    font-size: 24px;
+    color: rgb(30, 30, 30);
+    margin-top: 5px;
+}
+
+#tfg-ir-title p {
+    font-size: 18px;
+    color: rgb(30, 30, 30);
+}
+
+@media only screen and (max-width: 920px) and (min-width: 590px) {
+    #tfg-ir-title {
+        background-image:  linear-gradient(
+      130deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      230deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      50deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      310deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+        height: 25vh;
+        padding: 200px 0;
+    }
+
+    #tfg-ir-title img {
+        width: 160px;
+        margin-top: -130px;
+        margin-bottom: -5px;
+    }
+    
+    #tfg-ir-title h1 {
+        padding: 0px 180px;
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+    
+    #tfg-ir-title h2 {
+        padding: 0px 140px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    #tfg-ir-title p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 590px) and (min-width: 380px) {
+    #tfg-ir-title {
+        background-image:  linear-gradient(
+      130deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      230deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      50deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      310deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+        height: 20vh;
+        padding: 180px 0;
+    }
+
+    #tfg-ir-title img {
+        width: 120px;
+        margin-top: -150px;
+        margin-bottom: -5px;
+    }
+    
+    #tfg-ir-title h1 {
+        padding: 0px 120px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+    
+    #tfg-ir-title h2 {
+        padding: 0px 110px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    #tfg-ir-title p {
+        padding: 0px 170px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #tfg-ir-title {
+        background-image:  linear-gradient(
+      130deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      230deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      50deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      310deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+        height: 20vh;
+        padding: 180px 0;
+    }
+
+    #tfg-ir-title img {
+        width: 22%;
+        margin-top: -130px;
+        margin-bottom: -5px;
+    }
+    
+    #tfg-ir-title h1 {
+        padding: 0px 60px;
+        font-size: 18px;
+    }
+    
+    #tfg-ir-title h2 {
+        padding: 0px 110px;
+        font-size: 16px;
+    }
+    
+    #tfg-ir-title p {
+        padding: 0px 50px;
+        font-size: 12px;
+    }
+
+    .abstract-table {
+        border-collapse: collapse;
+    }
+    
+    .abstract-table td {
+        vertical-align: top;
+        padding: 0px 10px;
+    }
+
+    .tfg-ir-section:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .tfg-ir-section:active {
+        background-color: white;
+        color: black;
+    }
+
+    .up-shortcut p {
+        position: fixed;
+        bottom: 1px;
+        right: 12px;
+        font-size: 10px;
+    }
+}
+
+.up-shortcut {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(50, 50, 50);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px groove white;
+    border-radius: 10px;
+}
+
+.up-shortcut img {
+    position: fixed;
+    bottom: 28px;
+    right: 22px;
+    width: 30px;
+}
+
+.up-shortcut p {
+    position: fixed;
+    bottom: 1px;
+    right: 14px;
+    color: white;
+    font-size: 12px;
+}
+
+.abstract-table {
+    text-align: justify;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.abstract-table th {
+    padding: 0px 20px;
+    padding-top: 30px;
+    padding-bottom: 3px;
+}
+
+.abstract-table td {
+    vertical-align: top;
+    padding: 0px 20px;
+}
+
+.tfg-ir-content {
+    color: white;
+    margin: 2%;
+    line-height: 20px;
+    align-items: center;
+}
+
+.tfg-ir-section {
+    margin: 15px 2px;
+    cursor: pointer;
+    font-family: fantasy, helvetica, impact,  serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 2px solid gray;
+    list-style: none;
+    border-radius: 1px;
+}
+
+.tfg-ir-section:hover {
+    background-color: white;
+    color: black;
+}
+
+.tfg-ir-content p {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px 8%;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.tfg-ir-content h3 {
+    margin: 20px 8%;
+}
+
+.tfg-ir-content ol {
+    margin: -10px 8%;
+    text-align: justify;
+    padding-bottom: 30px;
+    list-style: none;
+}
+
+.tfg-ir-content li {
+    margin-left: -15px;
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+.tfg-ir-content figure {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.tfg-ir-content img {
+    width: 99%;
+    margin: auto;
+    filter:invert(1);
+}
+
+.tfg-ir-content figcaption {
+    text-align: center;
+    margin-top: -5px;
+}
+
+.tfg-ir-content ul {
+    margin: -10px 2%;
+    padding-bottom: 30px;
+}
+
+.tfg-ir-content a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.first-letter-capitalized:first-letter {
+    initial-letter: 3;
+}
+
+.bibliography {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 921px) {
+    .tfg-ir-section {
+        margin: 15px 70px;
+    }
+
+    .tfg-ir-content p {
+        margin: 0px 14%;
+    }
+}
+
+
+
+
+
+/* CHESS PAGE STYLINGS */
+
+.chess-board {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.board {
+    float: left;
+    margin-right: 15px;
+}
+
+.chess-board th {
+    padding: .5em;
+}
+
+.chess-board th + th {
+    border-top: 1px solid #000;
+}
+
+.chess-board th:first-child, .chess-board td:last-child {
+    border-right: 1px solid #000;
+}
+
+.chess-board tr:first-child td {
+    border-top: 1px solid;
+}
+
+.chess-board th:empty {
+    border: none;
+}
+
+.chess-board td {
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    font-size: 32px;
+    line-height: 0;
+}
+
+.chess-board .light {
+    background: #eee;
+}
+
+.chess-board .dark {
+    background: #aaa;
+}
+
+.chess-board img {
+    height: 45px;
+}
+
+.chess-board th {
+    font-size: 18px;
+}
+
+.last-move {
+    background: #ccceac !important;
+}
+
+.games-selector {
+    margin: 15px;
+    margin-left: 30px;
+    width: 400px;
+}
+
+.chess-games {
+    border: 1px solid black;
+}
+
+.game-analysis, .opening, .caption, .chess-board th {
+    color: white;
+}
+
+.game-analysis {
+    position: relative;
+    top: -35px;
+    margin-left: 25px;
+}
+
+.opening {
+    display: inline-block;
+    font-size: 17px;
+    text-align: left;
+    margin: 0px;
+}
+
+.game-analysis p {
+    text-align: justify;
+    line-height: 22px;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.caption {
+    margin-top: 0px;
+    margin-bottom: 45px;
+    margin-left: 30px;
+}
