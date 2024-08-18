@@ -388,6 +388,7 @@ body {
     cursor: pointer;
     border: 2px groove white;
     border-radius: 10px;
+    z-index: 998;
 }
 
 .up-shortcut img {
