@@ -378,147 +378,6 @@ body {
     color: rgb(30, 30, 30);
 }
 
-@media only screen and (max-width: 920px) and (min-width: 590px) {
-    #tfg-ir-title {
-        background-image:  linear-gradient(
-      130deg,
-      black 30%,
-      transparent 30%),
-      linear-gradient(
-      230deg,
-      black 30%,
-      transparent 30%),
-      linear-gradient(
-      50deg,
-      black 30%,
-      transparent 30%),
-      linear-gradient(
-      310deg,
-      black 30%,
-      rgb(255, 190, 190) 30%);
-        height: 25vh;
-        padding: 200px 0;
-    }
-
-    #tfg-ir-title img {
-        width: 160px;
-        margin-top: -130px;
-        margin-bottom: -5px;
-    }
-    
-    #tfg-ir-title h1 {
-        padding: 0px 180px;
-        margin-bottom: 0px;
-        font-size: 20px;
-    }
-    
-    #tfg-ir-title h2 {
-        padding: 0px 140px;
-        font-size: 18px;
-        margin-top: 10px;
-    }
-    
-    #tfg-ir-title p {
-        font-size: 15px;
-    }
-}
-
-@media only screen and (max-width: 590px) and (min-width: 420px) {
-    #tfg-ir-title {
-        background-image:  linear-gradient(
-      130deg,
-      black 30%,
-      transparent 30%),
-      linear-gradient(
-      230deg,
-      black 30%,
-      transparent 30%),
-      linear-gradient(
-      50deg,
-      black 30%,
-      transparent 30%),
-      linear-gradient(
-      310deg,
-      black 30%,
-      rgb(255, 190, 190) 30%);
-        height: 20vh;
-        padding: 180px 0;
-    }
-
-    #tfg-ir-title img {
-        width: 120px;
-        margin-top: -150px;
-        margin-bottom: -5px;
-    }
-    
-    #tfg-ir-title h1 {
-        padding: 0px 120px;
-        margin-top: 2px;
-        margin-bottom: 0px;
-        font-size: 18px;
-    }
-    
-    #tfg-ir-title h2 {
-        padding: 0px 110px;
-        font-size: 16px;
-        margin-top: 10px;
-    }
-    
-    #tfg-ir-title p {
-        padding: 0px 170px;
-        font-size: 14px;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    #tfg-ir-title {
-        background-image:  linear-gradient(
-      130deg,
-      black 30%,
-      transparent 30%),
-      linear-gradient(
-      230deg,
-      black 30%,
-      transparent 30%),
-      linear-gradient(
-      50deg,
-      black 30%,
-      transparent 30%),
-      linear-gradient(
-      310deg,
-      black 30%,
-      rgb(255, 190, 190) 30%);
-        height: 20vh;
-        padding: 180px 0;
-    }
-
-    #tfg-ir-title img {
-        display: none;
-    }
-    
-    #tfg-ir-title h1 {
-        padding: 0px 50px;
-        font-size: 18px;
-    }
-    
-    #tfg-ir-title h2 {
-        padding: 0px 110px;
-        font-size: 16px;
-    }
-    
-    #tfg-ir-title p {
-        padding: 0px 15px;
-        font-size: 12px;
-    }
-
-    .up-shortcut p {
-        position: fixed;
-        bottom: 1px;
-        right: 12px;
-        font-size: 8px;
-    }
-}
-
 .up-shortcut {
     position: fixed;
     bottom: 10px;
@@ -648,6 +507,170 @@ body {
 .bibliography {
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 920px) and (min-width: 590px) {
+    #tfg-ir-title {
+        background-image:  linear-gradient(
+      130deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      230deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      50deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      310deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+        height: 25vh;
+        padding: 200px 0;
+    }
+
+    #tfg-ir-title img {
+        width: 160px;
+        margin-top: -130px;
+        margin-bottom: -5px;
+    }
+    
+    #tfg-ir-title h1 {
+        padding: 0px 180px;
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+    
+    #tfg-ir-title h2 {
+        padding: 0px 140px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    #tfg-ir-title p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 590px) and (min-width: 420px) {
+    #tfg-ir-title {
+        background-image:  linear-gradient(
+      130deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      230deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      50deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      310deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+        height: 20vh;
+        padding: 180px 0;
+    }
+
+    #tfg-ir-title img {
+        width: 120px;
+        margin-top: -150px;
+        margin-bottom: -5px;
+    }
+    
+    #tfg-ir-title h1 {
+        padding: 0px 120px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+    
+    #tfg-ir-title h2 {
+        padding: 0px 110px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    #tfg-ir-title p {
+        padding: 0px 170px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #tfg-ir-title {
+        background-image:  linear-gradient(
+      130deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      230deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      50deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      310deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+        height: 20vh;
+        padding: 180px 0;
+    }
+
+    #tfg-ir-title img {
+        display: none;
+    }
+    
+    #tfg-ir-title h1 {
+        padding: 0px 110px;
+        font-size: 18px;
+    }
+    
+    #tfg-ir-title h2 {
+        padding: 0px 110px;
+        font-size: 16px;
+    }
+    
+    #tfg-ir-title p {
+        padding: 0px 15px;
+        font-size: 12px;
+    }
+
+    .up-shortcut p {
+        position: fixed;
+        bottom: 2px;
+        right: 15px;
+        font-size: 11px;
+    }
+
+    .abstract-table {
+        border-collapse: collapse;
+    }
+    
+    .abstract-table th {
+        padding: 0px 15px;
+    }
+    
+    .abstract-table td {
+        padding: 0px 15px;
+    }
+    
+    .tfg-ir-section:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .tfg-ir-section:active {
+        background-color: white;
+        color: black;
+    }
+}
+
 
 @media only screen and (min-width: 921px) {
     .tfg-ir-section {
