@@ -225,78 +225,315 @@ body {
 
 
 
-
 /* SOCIOLOGY THESIS STYLINGS */
 
-
-#navbar-available-soon {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    height: 50px;
-    width: 100%;
-    display: flex;
-    background-color: rgb(50, 50, 50);
-    z-index: 999
-}
-  
-#navbar-available-soon a {
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    color: white;
-    font-family: fantasy, helvetica, impact,  serif;
-}
-  
-#navbar-available-soon a:hover {
-    color: rgb(50, 50, 50);
-    background-color: white;
-    font-family: fantasy, helvetica, impact,  serif;
-}
-
-#available-soon {
+#tfg-sociology-title {
     background-image:  linear-gradient(
-      155deg,
+      130deg,
       black 30%,
       transparent 30%),
       linear-gradient(
-      205deg,
+      230deg,
       black 30%,
       transparent 30%),
       linear-gradient(
-      25deg,
+      30deg,
       black 30%,
       transparent 30%),
       linear-gradient(
-      335deg,
+      330deg,
       black 30%,
       rgb(255, 190, 190) 30%);
     height: 25vh;
     text-align: center;
-    padding: 30vh 0;
+    padding: 310px 0;
 }
 
-#available-soon img {
-    position: relative;
-    top: -20px;
-    width: 60px;
+#tfg-sociology-title img {
+    width: 240px;
+    margin-top: -350px;
+    margin-bottom: -12px;
 }
 
-#available-soon h1 {
-    position: relative;
-    top: -15px;
+#tfg-sociology-title h1 {
+    padding: 0px 240px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#tfg-sociology-title h2 {
+    padding: 0px 170px;
+    font-size: 24px;
+    color: rgb(30, 30, 30);
+    margin-top: 5px;
+}
+
+#tfg-sociology-title p {
+    font-size: 18px;
+    color: rgb(30, 30, 30);
+}
+
+.tfg-sociology-content {
+    color: white;
+    margin: 2%;
+    line-height: 20px;
+    align-items: center;
+}
+
+.tfg-sociology-section {
+    margin: 15px 2px;
+    cursor: pointer;
     font-family: fantasy, helvetica, impact,  serif;
     letter-spacing: 1px;
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 2px solid gray;
+    list-style: none;
+    border-radius: 1px;
 }
 
-#available-soon h2 {
-    position: relative;
-    top: -15px;
-    font-family:'Times New Roman', serif;
+.tfg-sociology-section:hover {
+    background-color: white;
+    color: black;
 }
 
+.tfg-sociology-content p:not(.initial-quote, .quote) {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px 8%;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.tfg-sociology-content h3 {
+    margin: 20px 8%;
+}
+
+.tfg-sociology-content ol {
+    margin: -10px 8%;
+    text-align: justify;
+    padding-bottom: 30px;
+    list-style: none;
+}
+
+.tfg-sociology-content li {
+    margin-left: -15px;
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+.tfg-sociology-content figure {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.tfg-sociology-content img {
+    width: 99%;
+    margin: auto;
+    filter:invert(1);
+}
+
+.tfg-sociology-content figcaption {
+    text-align: center;
+    margin-top: -5px;
+}
+
+.tfg-sociology-content ul {
+    margin: -10px 2%;
+    padding-bottom: 30px;
+}
+
+.tfg-sociology-content a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+@media only screen and (max-width: 920px) and (min-width: 590px) {
+    #tfg-sociology-title {
+        background-image:  linear-gradient(
+      130deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      230deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      50deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      310deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+        height: 25vh;
+        padding: 200px 0;
+    }
+
+    #tfg-sociology-title img {
+        width: 160px;
+        margin-top: -130px;
+        margin-bottom: -5px;
+    }
+    
+    #tfg-sociology-title h1 {
+        padding: 0px 180px;
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+    
+    #tfg-sociology-title h2 {
+        padding: 0px 140px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    #tfg-sociology-title p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 590px) and (min-width: 420px) {
+    #tfg-sociology-title {
+        background-image:  linear-gradient(
+      130deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      230deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      50deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      310deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+        height: 20vh;
+        padding: 180px 0;
+    }
+
+    #tfg-sociology-title img {
+        width: 120px;
+        margin-top: -150px;
+        margin-bottom: -5px;
+    }
+    
+    #tfg-sociology-title h1 {
+        padding: 0px 120px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+    
+    #tfg-sociology-title h2 {
+        padding: 0px 110px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    #tfg-sociology-title p {
+        padding: 0px 170px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #tfg-sociology-title {
+        background-image:  linear-gradient(
+      130deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      230deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      50deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      310deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+        height: 20vh;
+        padding: 180px 0;
+    }
+
+    #tfg-sociology-title img {
+        display: none;
+    }
+    
+    #tfg-sociology-title h1 {
+        padding: 0px 100px;
+        font-size: 18px;
+    }
+    
+    #tfg-sociology-title h2 {
+        padding: 0px 110px;
+        font-size: 16px;
+    }
+    
+    #tfg-sociology-title p {
+        padding: 0px 15px;
+        font-size: 12px;
+    }
+
+    .up-shortcut p {
+        position: fixed;
+        bottom: 2px;
+        right: 14px;
+        font-size: 11px;
+    }
+    
+    .abstract-table th {
+        padding: 0px 15px;
+    }
+    
+    .abstract-table td {
+        padding: 10px 15px;
+    }
+    
+    .tfg-sociology-section:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .tfg-sociology-section:active {
+        background-color: white;
+        color: black;
+    }
+}
+
+
+@media only screen and (min-width: 921px) {
+    .tfg-sociology-section {
+        margin: 15px 70px;
+    }
+
+    .tfg-sociology-content p {
+        margin: 0px 14%;
+    }
+}
+
+.initial-quote {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px 8%;
+    margin-left: 14%;
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+.quote {
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 0px 8%;
+    margin-left: 10%;
+}
 
 
 
