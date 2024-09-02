@@ -1019,3 +1019,76 @@ body {
     margin-bottom: 45px;
     margin-left: 30px;
 }
+
+
+
+
+/* AVAILABLE SOON STYLINGS */
+
+#navbar-available-soon {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    z-index: 999
+}
+  
+#navbar-available-soon a {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: fantasy, helvetica, impact,  serif;
+}
+  
+#navbar-available-soon a:hover {
+    color: rgb(50, 50, 50);
+    background-color: white;
+    font-family: fantasy, helvetica, impact,  serif;
+}
+
+#available-soon {
+    background-image:  linear-gradient(
+      155deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      205deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      25deg,
+      black 30%,
+      transparent 30%),
+      linear-gradient(
+      335deg,
+      black 30%,
+      rgb(255, 190, 190) 30%);
+    height: 25vh;
+    text-align: center;
+    padding: 30vh 0;
+}
+
+#available-soon img {
+    position: relative;
+    top: -20px;
+    width: 60px;
+}
+
+#available-soon h1 {
+    position: relative;
+    top: -15px;
+    font-family: fantasy, helvetica, impact,  serif;
+    letter-spacing: 1px;
+}
+
+#available-soon h2 {
+    position: relative;
+    top: -15px;
+    font-family:'Times New Roman', serif;
+}
